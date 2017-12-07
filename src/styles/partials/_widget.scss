@@ -1,0 +1,28 @@
+.widget-header {
+    background: $independance;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 $m-size;
+    align-items: center;
+}
+.widget {
+    background: $light-blue;
+    margin-bottom: $l-size;
+}
+.widget-options {
+    padding: 0;
+    list-style: none;    
+    border-top: 1px solid lighten($independance, 20%);
+}
+.widget-option {
+    display: flex;
+    justify-content: space-between;
+    color: $dark-gunmetal;
+    padding: .8rem $l-size;    
+    border-bottom: 1px solid lighten($independance, 20%);
+}
+.widget-info {
+    text-align: center;
+    padding: $s-size 0;
+}

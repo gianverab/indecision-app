@@ -1,0 +1,32 @@
+.big-button {
+    color: #ffffff;
+    background: $green-blue;
+    border: none;
+    border-radius: .6rem;
+    width: 100%;
+    padding: $m-size;
+    font-size: $l-size;
+    font-weight: 600;
+    margin-bottom: $xl-size;
+}
+.big-button:disabled {
+    opacity: .5;
+}
+.button {
+    color: #ffffff;
+    background: $green-blue;
+    border: none;
+    border-radius: .3rem;
+    padding: $s-size;
+    font-weight: 500;
+}
+.button--link {
+    background: none;
+    color: $dark-sky-blue;
+    padding: 0;
+}
+.button--darklink {
+    background: none;
+    color: $independance;
+    padding: 0;
+}

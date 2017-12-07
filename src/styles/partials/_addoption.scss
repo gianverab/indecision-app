@@ -1,0 +1,27 @@
+.add-option {
+    display: flex;
+    padding: 2.4rem $l-size;
+    flex-wrap: wrap;
+}
+.add-option__input {
+    flex-grow: 1;
+    margin-right: 1%;
+    color: $independance;
+    padding: 0 $s-size;
+}
+.add-option-error {
+    text-align: center;
+    font-style: italic;
+    font-size: $s-size;
+    color: $independance;
+}
+@media screen and (max-width: 400px){
+    .add-option__input {
+        margin-right: 0;
+        margin-bottom: .3rem;
+        padding: .6rem 0;
+    }
+    .add-option__btn {
+        flex-grow: 1;
+    }
+}
